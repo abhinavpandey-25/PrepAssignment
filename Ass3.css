@@ -1,0 +1,25 @@
+.one{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+.two{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    left: 100px;
+}
+.content{
+    position: absolute;
+     height: 40px;
+     background-color: aqua;   
+}
+.three{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border: 2px solid red;
+    left: 200px;
+    display: relative;
+}

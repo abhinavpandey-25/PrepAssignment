@@ -34,6 +34,7 @@
     margin: auto;
     height:350px;
     box-shadow: 5px 5px grey;
+   
 }
 .inner{
     width: 100%;
@@ -75,4 +76,5 @@ text-align: center;
         height:350px;
         box-shadow: 5px 5px grey;
     }
+  
 }
