@@ -15,54 +15,42 @@
         <div class="child">
             <div class="header">
                 <div class="button">
-                    <span style="font-size: 40px;font-weight: 600;">Tasks </span><span
-                        style="font-weight: 600;color: gray;font-size: 40px;"> Lists </span>
+                    <span style="font-size: 40px;font-weight: 600;color: blanchedalmond;">Tasks </span><span style="font-weight: 600;color: gray;font-size: 40px;"> Lists </span>
                 </div>
-
-                <div class="button  ">
-                    <i class="fa fa-plus-circle fa-2x" style="color: red; font-size: 40px;" aria-hidden="true"><span class="span-1">Add
-                        List</span> </i>
+                <div class="button">
+                    <i class="fa fa-plus-circle fa-2x" style="color: red; font-size: 40px;" aria-hidden="true"><span
+                            class="span-1">Add
+                            List</span > </i>
                 </div>
             </div>
-            <div class="content">
-
-               
-                <div class="card">
+            <div class="content" id="cont">
+                <!-- <div class="card">
                     <h2>Trip To Paris</h2>
                     <div class="hidden">
-                    <hr style="margin-left: 20%;">
+                        <hr style="margin-left: 20%;">
 
-                    <h2 style="color: red;text-decoration: line-through;">Completed Task</h2>
-                    <br>
-                    <input type="checkbox" name="" id=""> <span style="font-size: x-large;">Pending Task</span>
+                        <h2 style="color: red;text-decoration: line-through;">Completed Task</h2>
+                        <br>
+                        <input type="checkbox" name="" id=""> <span style="font-size: x-large;">Pending Task</span>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="outer">
+
+            <div class="inner">
+                <span class="close" onClick="off()">&times;</span>
+                <h2 style="color: red; "> Add New List</h2>
+                <br>
+                <input type="text" class="text">
+                <div class="button">
+                    <button style="width: 80px; background-color: salmon; border-radius: 10px;height: 30px;" onclick="additem()">Add</button>
                 </div>
             </div>
-            
-            <div class="card">
-                <h2>Trip To Paris</h2>
-                <div class="hidden">
-                <hr style="margin-left: 20%;">
 
-                <h2 style="color: red;text-decoration: line-through;">Completed Task</h2>
-                <br>
-                <input type="checkbox" name="" id=""> <span style="font-size: x-large;">Pending Task</span>
-            </div>
         </div>
-        
-        <div class="card">
-            <h2>Trip To Paris</h2>
-            <div class="hidden">
-            <hr style="margin-left: 20%;">
 
-            <h2 style="color: red;text-decoration: line-through;">Completed Task</h2>
-            <br>
-            <input type="checkbox" name="" id=""> <span style="font-size: x-large;">Pending Task</span>
-        </div>
-    </div>
-            </div>
-        </div>
-    </div>
-    <script src="scriptpg2.js"></script>
+        <script src="scriptpg2.js"></script>
 </body>
 
 </html>
